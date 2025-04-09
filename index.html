@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片预览与批量下载</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>图片预览与批量下载工具</h1>
+        
+        <div class="input-section">
+            <button id="paste-btn">从剪贴板粘贴图片链接</button>
+            <p class="hint">或者直接在下方文本框中粘贴图片链接（每行一个链接）</p>
+            <textarea id="image-urls" placeholder="在此粘贴图片链接，每行一个..."></textarea>
+            <button id="preview-btn">预览图片</button>
+        </div>
+
+        <div class="controls">
+            <button id="select-all">全选</button>
+            <button id="deselect-all">取消全选</button>
+            <button id="download-selected" disabled>下载选中图片</button>
+            <span id="selected-count">已选择: 0 张图片</span>
+        </div>
+
+        <div class="gallery" id="image-gallery">
+            <!-- 图片预览将在这里显示 -->
+            <div class="empty-state">
+                粘贴图片链接后，预览将显示在这里
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
