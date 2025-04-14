@@ -5,10 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>图片预览与批量下载</title>
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX'); // 需要替换为您的Google Analytics ID
+    </script>
 </head>
 <body>
     <div class="container">
-        <h1>图片预览与批量下载工具</h1>
+        <h1>图片预览与批量下载</h1>
+        
+        <!-- 顶部广告位 -->
+        <div class="ad-container">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+            <!-- 横幅广告 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         
         <div class="input-section">
             <button id="paste-btn">从剪贴板粘贴图片链接</button>
@@ -31,6 +55,10 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <p class="footer-text">© 2023 <span class="author">NaNa的窄门</span></p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

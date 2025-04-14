@@ -182,4 +182,32 @@ button:disabled {
         margin-left: 0;
         margin-top: 10px;
     }
+}
+
+/* 广告容器样式 */
+.ad-container {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    min-height: 90px;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* 页脚样式 */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.footer-text {
+    padding: 10px;
+}
+
+.author {
+    font-weight: 500;
+    color: #3498db;
 } 
